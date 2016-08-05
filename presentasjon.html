@@ -64,6 +64,10 @@ class: middle split
 
 * publikum
 
+--
+
+* leseerfaring
+
 ???
 
 forfatteren kan bruke ord, vi bruker hovedsaklig kode (men ord i kommentarene)
@@ -73,6 +77,9 @@ formatering er viktig for begge to,
 og at det er lett å lese
 
 begge handler om å kommunisere - enten for business eller for pleasure
+
+en forfatter leser hundretalls bøker før man skriver
+en utvikler leser langt mindre kode!
 
 ---
 
@@ -153,24 +160,20 @@ class: agenda
 ---
 
 class: middle center
+# God kode er vedlikeholdbar!
 
-# Lesbarhet
-
-_god kode er lett å lese!_
-
---
-
-_å kode handler om å kommunisere_
+_koden vår lever i snitt 10 år_
 
 ---
 
-class: middle center
+# Vedlikeholdbarhet handler bl.a om...
 
-
-
----
-
-class: middle center
+* testbarhet og testing
+* utvidbarhet
+* lesbarhet
+* driftbarhet
+* speiling av domene
+* dokumentasjon
 
 ---
 
@@ -179,11 +182,6 @@ class: middle center
 class: middle center
 # Formatering
 ![](bilder/tabsspaces.jpg)
-
----
-
-class: middle center
-## _Det betyr noe!_
 
 ---
 
@@ -204,7 +202,7 @@ class: middle center
 
 # Navngiving
 
-_eeeer så viktig!_
+_en viktig del av kommunikasjonen_
 
 ---
 
@@ -217,7 +215,7 @@ public class AbstractAnnotationConfigDispatcherServletInitializer
 
 ---
 
-# Seks prinsipper for navngiving
+# Prinsipper for navngiving
 
 1. spend a lot of time on inventing good names
 2. use code reviews
@@ -228,14 +226,33 @@ public class AbstractAnnotationConfigDispatcherServletInitializer
 
 ---
 
-class: middle center
-## Norsk eller engelsk?
-_ litt norwenglish, kanskje?_
+# Prinsipper for navngiving
+
+1. Tenk deg nøye om
+2. Intensjonen må komme tydelig frem
+3. Vær konsis hvis mulig
+4. Spør en venn!
 
 ---
 
 class: middle center
-## Følg prosjektkonvensjon
+## Norsk eller engelsk?
+_ litt norwenglish, kanskje?_
+
+--
+
+_følg prosjektkonvensjon_
+
+---
+
+class: middle center
+# Oppgave
+
+## Formatering og navngiving
+
+## https://github.com/ewendel/clean-code
+
+_formatering.js_
 
 ---
 
@@ -296,9 +313,8 @@ _(it's messy and they'll get out of date)_
 ---
 
 class: middle center
-# Kommentarer
-
-## Oppgave
+# Oppgave
+## Kommentarer
 
 _kommentarer.js_
 
@@ -414,7 +430,7 @@ class: middle center
 
 # SOLID
 
-_lærer dere fra clean code!_
+_...lærer dere fra clean code!_
 
 ---
 
@@ -459,7 +475,7 @@ class: middle center
 --
 _you ain't gonna need it_
 
-??? 
+???
 Våpenet mot over-engineering!
 Prøv å hold det enkelt, prøv med det enkleste som trengs.
 Ikke lag funksjonalitet pre-emptively som du ikke vet at du trenger.
@@ -479,10 +495,16 @@ Hvis noe kan løses tilfredsstillende på to måter er de enkleste best.
 
 ---
 
+class: middle center
+# Oppgaver
+## Refaktorering
+
+_refaktorering.js_
+
+tester ligger i _oppgaver.html_
 
 ---
 
-background-image: url(bilder/)
 class: middle center
 
 # Oppsummert
