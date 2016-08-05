@@ -1,7 +1,7 @@
 /*
     Oppgave
 
-    Refaktorer koden slik at den får høyere lesbarhet.
+    Refaktorer koden slik at den får høyere lesbarhet og dermed blir lettere å vedlikeholde.
     Du kan kjøre testene for å verifisere at koden fungerer etter endring
     ved å åpne oppgaver.html i nettleseren din
 
